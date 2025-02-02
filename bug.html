@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>  
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect use of innerHTML, attempting to set it to an undefined variable
+    document.getElementById("myDiv").innerHTML = myUndefinedVar; 
+  </script>
+</body>
+</html>
